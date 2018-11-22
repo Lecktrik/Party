@@ -11,7 +11,7 @@ function updateStatus(text){
 function setWord(w, i){
 	channel.socket.emit("setWord", {word: w.substring(0,i),validate: (w.length == i)});
 	if (i<w.length && injector.canWrite) {
-		setTimeout(function(){setWord(w,++i);},rand(25,125));
+		setTimeout(function(){setWord(w,++i);},rand(5,105));
 	}
 }
 
