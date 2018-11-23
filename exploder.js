@@ -95,5 +95,5 @@ parentThing.appendChild(autoInjectIndicator);
 var currentStatus = document.createElement('li');
 parentThing.appendChild(currentStatus);
 var wordScript = document.createElement("script");
-wordScript.src = "https://lecktrik.github.io/Party/dictionary.js";
+wordScript.src = "https://raw.githubusercontent.com/YoungsterGlenn/bpDictionaryStatistics/master/dictionary.txt";
 document.head.appendChild(wordScript);﻿
